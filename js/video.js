@@ -55,11 +55,11 @@ document.querySelector("#volumeSlider").addEventListener("click", function() {
 });
 
 document.querySelector("#old").addEventListener("click", function() {
-	let z = document.querySelector("body");
+	let z = document.querySelector("#myVideo");
 	z.classList.add("oldTime");
 });
 
 document.querySelector("#original").addEventListener("click", function() {
-	let y = document.querySelector("body");
+	let y = document.querySelector("#myVideo");
 	y.classList.remove("oldTime");
 });
